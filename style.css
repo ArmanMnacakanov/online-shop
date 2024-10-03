@@ -692,14 +692,15 @@ footer>div a:hover::before {
     .service>h3 {
         font-size: 15px;
     }
+
     .blog_box {
         flex-wrap: wrap;
     }
-    
+
     .top_selling_product_box {
         flex-wrap: wrap;
     }
-    
+
     .category a {
         width: 350px;
     }
@@ -790,8 +791,9 @@ footer>div a:hover::before {
         justify-content: flex-start;
     }
 }
+
 @media(max-width:552px) {
-  header {
+    header {
         position: relative;
         z-index: 99999999;
         justify-content: flex-start;
@@ -817,13 +819,15 @@ footer>div a:hover::before {
         flex-direction: column;
     }
 
-    .signin_search ul{
+    .signin_search ul {
         gap: 20px;
     }
+
     .signin_search a {
         padding: 0;
         font-size: 11px;
     }
+
     label {
         display: block;
         position: absolute;
@@ -833,7 +837,8 @@ footer>div a:hover::before {
     .logo>img {
         width: 120px;
     }
-    .title_box h1{
+
+    .title_box h1 {
         font-size: 20px;
     }
 
@@ -846,14 +851,24 @@ footer>div a:hover::before {
     }
 
     .product {
-        width:80%;
+        width: 80%;
     }
-    .product_img{
+
+    .product_img {
         height: 450px;
     }
-.top_selling_product{
-    width: 80%;
-}
+
+    .top_selling_product_box {
+        flex-wrap: wrap;
+    }
+
+    .top_selling_product {
+        width: 80%;
+    }
+    .blog_box{
+        flex-wrap: wrap;
+    }
+
     .blog {
         width: 250px;
     }
@@ -870,7 +885,8 @@ footer>div a:hover::before {
     .service_box {
         flex-wrap: wrap;
     }
- .service h3 {
+
+    .service h3 {
         font-size: 15px;
     }
 
